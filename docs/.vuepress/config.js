@@ -14,39 +14,14 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Basic Page',
-        link: '/basic/'
-      },
-      {
         text: 'Section',
         items: [
           {
-            text: 'Section Introduction',
-            link: '/section/#section-introduction'
+            text: 'Attempt #1',
+            link: '/blog/2020-01'
           },
-          {
-            text: 'Some More Content!',
-            link: '/section/#some-more-content'
-          }
         ]
       },
-      {
-        text: 'Contact',
-        items: [
-          {
-            text: 'Twitter',
-            link: 'https://www.twitter.com/'
-          },
-          {
-            text: 'Email',
-            link: 'mailto:hello@email.com'
-          }
-        ]
-      },
-      {
-        text: 'Component Example',
-        link: '/component-example'
-      }
     ],
     plugins: ['@vuepress/active-header-links']
   }
