@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Starter Kit',
-  description: 'This is your page description.',
+  title: 'Tech Sabbatical',
+  description: 'Resisting the tornado of technology once a month.',
   themeConfig: {
     // logo: '/vuepress-logo.png',
     // lastUpdated: 'Last updated',
