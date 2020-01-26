@@ -8,6 +8,7 @@ module.exports = {
     // docsDir: 'docs',
     // editLinks: true,
     // editLinkText: 'Recommend a change',
+    search: false,
     nav: [
       {
         text: 'Home',
