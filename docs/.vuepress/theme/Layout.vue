@@ -3,3 +3,8 @@
     <Content/>
   </div>
 </template>
+
+export default {
+  name: 'Layout',
+}
+</script>
