@@ -14,7 +14,7 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Section',
+        text: 'Blog',
         items: [
           {
             text: 'Attempt #1',
