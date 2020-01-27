@@ -39,6 +39,12 @@
         <p>{{ feature.details }}</p>
       </div>
     </div>
+    
+    <div
+      v-if="!!actionLink"
+    >
+      <a :href="actionLink.link">{{actionLink.text}}</a>
+    </div>
 
     <Content class="theme-default-content custom" />
 
