@@ -4,11 +4,13 @@
       v-if="shouldShowNavbar"
       @toggle-sidebar="toggleSidebar"
     />
-    <Home v-if="$page.frontmatter.home" />
-    <Content
-      class="theme-default-content"
-      v-else
-    />
+    <div class="main-content">
+      <Home v-if="$page.frontmatter.home" />
+      <Content
+        class="theme-default-content"
+        v-else
+      />
+    </div>
     <div 
       class="footer"
     >
