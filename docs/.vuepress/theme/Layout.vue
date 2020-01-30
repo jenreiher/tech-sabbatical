@@ -11,10 +11,9 @@
     />
   </div>
   <div 
-    v-if="$footer"
-    class="footer
+    class="footer"
   >
-    {{$footer}}
+    {{$footer || 'Copyright 2020' }}
   </div>
 </template>
 
