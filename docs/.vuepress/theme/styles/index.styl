@@ -1,3 +1,5 @@
+@require './wrapper'
+
 @import url('https://fonts.googleapis.com/css?family=Thasadith:400,400i,700&display=swap');
 
 $contentClass = '.theme-default-content'
@@ -77,6 +79,10 @@ body
   overflow-y auto
 
 {$contentClass}:not(.custom)
+  @extend $wrapper
+  > *:first-child
+    margin-top $navbarHeight
+
   a:hover
     text-decoration underline
 
