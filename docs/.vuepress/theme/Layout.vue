@@ -9,12 +9,13 @@
       class="theme-default-content"
       v-else
     />
+    <div 
+      class="footer"
+    >
+      {{$footer || 'Copyright 2020' }}
+    </div>
   </div>
-  <div 
-    class="footer"
-  >
-    {{$footer || 'Copyright 2020' }}
-  </div>
+  
 </template>
 
 <script>
