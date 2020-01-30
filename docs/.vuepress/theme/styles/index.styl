@@ -81,6 +81,8 @@ body
 
 {$contentClass}:not(.custom)
   @extend $wrapper
+  min-height calc(70vh - #{$footerHeight})
+
   > *:first-child
     margin-top $navbarHeight
 
@@ -95,8 +97,6 @@ body
   img
     max-width 100%
     
-  min-height calc(70vh - #{$footerHeight})
-
 {$contentClass}.custom
   padding 0
   margin 0
