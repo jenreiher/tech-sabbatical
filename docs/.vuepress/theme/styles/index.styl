@@ -19,7 +19,7 @@ $navbarHeight = 3.6rem
 $sidebarWidth = 20rem
 $contentWidth = 740px
 $homePageWidth = 960px
-$footerHeight = 50px
+$footerHeight = 4rem
 
 // responsive breakpoints
 $MQNarrow = 959px
@@ -80,9 +80,10 @@ body
   overflow-y auto
 
 {$contentClass}:not(.custom)
-  @extend $wrapper
   min-height calc(70vh - #{$footerHeight})
-
+  margin-top $navbarHeight
+  
+  @extend $wrapper
   > *:first-child
     margin-top $navbarHeight
 
