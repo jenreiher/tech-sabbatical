@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Tech Sabbatical',
   description: 'Resisting the tornado of technology once a month.',
+  footer: 'Copyright 2020 Tired Worker Bee Inc.',
   themeConfig: {
     // logo: '/vuepress-logo.png',
     // lastUpdated: 'Last updated',
