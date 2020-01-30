@@ -6,6 +6,7 @@
     />
     <Home v-if="$page.frontmatter.home" />
     <Content
+      class="theme-default-content"
       v-else
     />
   </div>
