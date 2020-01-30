@@ -47,14 +47,6 @@
     </div>
 
     <Content class="theme-default-content custom" />
-
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      {{ data.footer }}
-    </div>
-  </main>
 </template>
 
 <script>
@@ -129,11 +121,7 @@ export default {
       color $textColor, 10%
     p
       color $textColor, 25%
-  .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
-    text-align center
-    color $textColor, 25%
+ 
 @media (max-width: $MQMobile)
   .home
     .features
