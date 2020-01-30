@@ -10,6 +10,12 @@
       v-else
     />
   </div>
+  <div 
+    v-if="$footer"
+    class="footer
+  >
+    {{$footer}}
+  </div>
 </template>
 
 <script>
