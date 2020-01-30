@@ -14,7 +14,7 @@
     <div 
       class="footer"
     >
-      {{$footer || 'Copyright 2020' }}
+      Copyright 2020 Tired Worker Bee Inc.
     </div>
   </div>
   
