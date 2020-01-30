@@ -95,7 +95,7 @@ export default {
       max-width 35rem
       font-size 1.6rem
       line-height 1.3
-      color lighten($textColor, 40%)
+      color $textColor
     .action-button
       display inline-block
       font-size 1.2rem
@@ -105,9 +105,9 @@ export default {
       border-radius 4px
       transition background-color .1s ease
       box-sizing border-box
-      border-bottom 1px solid darken($accentColor, 10%)
+      border-bottom 1px solid $accentColor, 10%
       &:hover
-        background-color lighten($accentColor, 10%)
+        background-color $accentColor, 10%
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -126,14 +126,14 @@ export default {
       font-weight 500
       border-bottom none
       padding-bottom 0
-      color lighten($textColor, 10%)
+      color $textColor, 10%
     p
-      color lighten($textColor, 25%)
+      color $textColor, 25%
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
     text-align center
-    color lighten($textColor, 25%)
+    color $textColor, 25%
 @media (max-width: $MQMobile)
   .home
     .features
