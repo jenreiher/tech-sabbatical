@@ -19,6 +19,7 @@ $navbarHeight = 3.6rem
 $sidebarWidth = 20rem
 $contentWidth = 740px
 $homePageWidth = 960px
+$footerHeight = 50px
 
 // responsive breakpoints
 $MQNarrow = 959px
@@ -93,6 +94,8 @@ body
 
   img
     max-width 100%
+    
+  min-height calc(70vh - $footerHeight)
 
 {$contentClass}.custom
   padding 0
@@ -105,7 +108,11 @@ body
   padding 2.5rem
   border-top 1px solid $borderColor
   text-align center
-  color $textColor, 25%
+  color $textColor
+  background-color $lightAccentColor
+  width 100%
+  position
+  height $footerHeight
 
 a
   font-weight 500
