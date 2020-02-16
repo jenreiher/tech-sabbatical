@@ -42,6 +42,8 @@
     },
     methods: {
       successStyle(prop) {
+        console.log(this[prop])
+        console.log(this[prop] === false)
         return this[prop] === false ? 'strike' : ''
       }
     }
