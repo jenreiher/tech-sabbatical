@@ -1,15 +1,15 @@
 <template>
 <ol>
-  <li :class="successStyle(television)">
+  <li :class="successStyle('television')">
     No television.
   </li>
-  <li :class="successStyle(smartphones)">
+  <li :class="successStyle('smartphones')">
     No smartphone functionality.
   </li>
-  <li :class="successStyle(voice)">
+  <li :class="successStyle('voice')">
     No voice interfaces without a direct analog equivalent. 
   </li>
-  <li :class="successStyle(screens)">
+  <li :class="successStyle('screens')">
     No  devices with screen interfaces.
   </li>
 </ol>
