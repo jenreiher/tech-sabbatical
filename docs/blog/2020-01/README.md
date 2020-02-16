@@ -2,13 +2,13 @@
 
 ## January 25, 2020
 
-Success Rating: 8/10
+Success Rating: 5/10
 
 ### The Rules
 
 How did we do this month? 
 
-<TheRules :voice="false" :screens="false" />
+<TheRules :voice="false" :smartphones="false" />
 
 ### Our Day
 
