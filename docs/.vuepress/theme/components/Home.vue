@@ -38,13 +38,8 @@
 </template>
 
 <script>
-import TheRules from '@theme/components/TheRules.vue'
-
 export default {
   name: 'Home',
-  components: {
-    TheRules  
-  },
   computed: {
     data () {
       return this.$page.frontmatter
