@@ -79,7 +79,8 @@ $navbar-horizontal-padding = 1.5rem
     vertical-align top
   .site-name
     font-size 1.3rem
-    font-weight 600
+    font-family 'Courier Prime', monospace;
+    font-weight 700
     color $textColor
     position relative
   .links
