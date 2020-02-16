@@ -19,7 +19,7 @@ module.exports = {
         items: [
           {
             text: 'Attempt #1',
-            link: '/blog/2020-01'
+            link: '/blog/2020-01/'
           },
         ]
       },
