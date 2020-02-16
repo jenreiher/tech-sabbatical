@@ -8,7 +8,7 @@ Success Rating: 8/10
 
 How did we do this month? 
 
-<TheRules voice="false" screens="false" />
+<TheRules :voice="false" :screens="false" />
 
 ### Our Day
 
@@ -30,7 +30,7 @@ We began to plan our day, and  Will decided to further embrace his hipsterism an
 
 Lunch was the first major challenge of our day. Usually we are _that_ modern couple, enjoying our meal mostly in silence while we scroll endlessly on our phones. When we talked about it afterwards, we both weren't totally sure how the meal was going to go and how tempting it might be to check our phones. We've been together for over 15 years... did we really have anything left to say to each other?! Surprisingly we did and although I don't remember what we talked about it was a pleasant conversation without too much awkward dead air. 
 
-Our afternoon and evening activities weren't too difficult this month. We walked around downtown, a typical weekend activity for us before heading home to walk our dogs. We did have to add one new rule along the way - using our voice interfaces to _remotely_ control our smart home devices was taking the 'voice activation is fine if there is no screen' rule a bit too far. Ultimately, we landed on voice activation is fine if there is no screen and it's a direct equivalent to an analog action. Yes, we do live in the future #2020. 
+Our afternoon and evening activities weren't too difficult this month. We walked around downtown, a typical weekend activity for us before heading home to walk our dogs. We did have to add one new rule along the way - using our voice interfaces to _remotely_ control our smart home devices was taking the 'voice activation is fine if there is no screen' rule a bit too far. Ultimately, we landed on voice activation is fine if there is no screen and it's a direct equivalent to an analog action. Yes, we do live in the future `#2020`. 
 
 We did run into one moment of challenge as we started to head out to our friends place for an evening of drinking and games. We suddenly realized that we no longer had a phone book in the house, and would have to rely on our memories for both their address and the cab phone number. Thanks to a long stint in retail we both still remembered a cab number and managed to dredge up our friend's street enough to get the cabbie there. It was interesting to imagine future generations who will never have had the experience of not having a digital device to fall back to, and how that will change our societal expectations in the future. 
 
