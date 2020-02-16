@@ -146,7 +146,7 @@ export default {
         &:hover
           color $accentColor
         &.router-link-active
-          color $accentColor
+          color darken($textColor, 20%)
           &::after
             content ""
             width 0
@@ -169,7 +169,7 @@ export default {
       font-weight 600
       font-size inherit
       &:hover
-        color $accentColor
+        color darken($textColor, 20%)
     .nav-dropdown
       transition height .1s ease-out
       overflow hidden
@@ -197,7 +197,7 @@ export default {
       // make the arrow always down at desktop
       border-left 4px solid transparent
       border-right 4px solid transparent
-      border-top 6px solid $arrowBgColor
+      border-top 6px solid darken($textColor, 20%)
       border-bottom 0
     .nav-dropdown
       display none
