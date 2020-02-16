@@ -26,19 +26,7 @@
       </p>
     </header>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
-        v-for="(feature, index) in data.features"
-        :key="index"
-        class="feature"
-      >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
-      </div>
-    </div>
+    <TheRules />
     
     <div
       v-if="!!actionLink"
@@ -50,8 +38,13 @@
 </template>
 
 <script>
+import TheRules from '@theme/components/TheRules.vue'
+
 export default {
   name: 'Home',
+  components: {
+    TheRules  
+  },
   computed: {
     data () {
       return this.$page.frontmatter
